@@ -15,7 +15,7 @@
     margin: 5px;
     border: 1px solid black;
     padding: 5px;
-    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px black;
     text-decoration: none;
 }
 
@@ -50,8 +50,8 @@ a:active.menu{
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    
-    
+    align-items: center;
+    justify-content: center;
 
 }
 .item-form  {
@@ -64,7 +64,6 @@ a:active.menu{
       display: block;
       float: left;
       width: 200px;
-
 
 }
 .footer {
